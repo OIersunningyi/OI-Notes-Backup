@@ -15,7 +15,7 @@
 ```cpp
 struct cht{
 	ll l,r;
-	ll v;
+	mutable ll v;
 	cht(ll l,ll r=-1,ll v=1){
 		this->l=l;
 		this->r=r;
